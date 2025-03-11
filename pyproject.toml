@@ -20,9 +20,9 @@ author_email = "rahul@vinter.co"
 packages = ["vintersdk"]
 
 [project.urls]
-homepage = 'https://vinter-product-and-development.github.io/vintersdk/'
-documentation = 'https://vinter-product-and-development.github.io/vintersdk/'
-repository = 'https://github.com/Vinter-Product-and-Development/vintersdk'
+homepage = 'https://kaikodata.github.io/vinter-sdk/'
+documentation = 'https://kaikodata.github.io/vinter-sdk/'
+repository = 'https://github.com/kaikodata/vinter-sdk'
 
 [options]
 python_requires = ">=3.7"
