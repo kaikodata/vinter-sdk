@@ -18,11 +18,11 @@ jobs:
     #     working-directory: ./app
 
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Python 3.9
-        uses: actions/setup-python@v1
+      - uses: actions/checkout@v7
+      - name: Set up Python
+        uses: actions/setup-python@v7
         with:
-          python-version: 3.9
+          python-version: '3.11'
       - name: Install dependencies
         run: |
           make install
