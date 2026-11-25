@@ -42,6 +42,6 @@ lint:
 		--exclude=./docs/*,mdocs \
 
 requirements:
-	pip freeze > requirements.txt
+	uv pip compile requirements.in --upgrade --python-version 3.14 -o requirements.txt
 
 all: format test testhtml mkdocs lint requirements
