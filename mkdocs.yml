@@ -63,14 +63,13 @@ plugins:
           # import:
           # - url: https://docs.python-requests.org/en/master/objects.inv
           #   domains: [std, py]
-          paths: [vintersdk]
+          paths: [vintersdk, .]
           options:
             docstring_style: numpy
             allow_inspection: true
             docstring_options:
               ignore_init_summary: true
             docstring_section_style: list
-            use_directory_urls: false
             filters: ["!^_"]
             heading_level: 2
             inherited_members: true

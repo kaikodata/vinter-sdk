@@ -1,0 +1,15 @@
+# CI's dependencies (tests, docs, package build). The package itself only needs
+# what pyproject.toml lists. Compile with: make requirements
+httpx
+websocket-client
+pytest
+pytest-asyncio
+pytest-cov
+readme-coverage-badger
+mkdocs-material
+mkdocstrings[python]
+mkdocs-autorefs
+sphinx
+furo
+myst-parser
+build
